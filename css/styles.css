@@ -1,0 +1,139 @@
+:root {
+	--main-text-color: #434455;
+	--secondary-text-color: #2e2f42;
+	--hero-tex-color: #ffffff;
+	--hero-background-color: #2e2f42;
+	--logo-color-text: #4d5ae5;
+	--buttons-color: #f4f4fd;
+	--buttons-text-color: #4d5ae5;
+	--buttons-active-color: #4d5ae5;
+	--buttons-active-text-color: #ffffff;
+	--footer-text-color: #e7e9fc;
+	--footer-logo-color: #f4f4fd;
+	--footer-background-color: #2e2f42;
+	--background-color: ;
+	--nav-color: #4d5ae5;
+	--main-font: Roboto, sans-serif;
+}
+
+body {
+	/* background-color: ; */
+
+	color: var(--main-text-color);
+	font-family: var(--main-font);
+	font-size: 16px;
+	background-color: #ffffff;
+	letter-spacing: 0.02em;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+/* page-header */
+.nav .link {
+	color: var(--secondary-text-color);
+	font-weight: 700;
+	line-height: 1.5;
+}
+.contacts .link {
+	color: var(--secondary-text-color);
+	line-height: 1.5;
+}
+
+.logo {
+	font-family: Raleway, sans-serif;
+	color: var(--secondary-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.logo-icon {
+	color: var(--logo-color-text);
+}
+.link:hover,
+.link:focus {
+	color: var(--nav-color);
+}
+.link.current {
+	color: var(--nav-color);
+}
+
+/* hero */
+.hero {
+	background-color: var(--hero-background-color);
+}
+.hero-title {
+	color: var(--hero-tex-color);
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+.button {
+	font-family: inherit;
+	color: var(--buttons-text-color);
+	background-color: var(--buttons-color);
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	line-height: 1.5;
+}
+.btn {
+	line-height: 1.19;
+}
+.button:hover,
+.button:focus {
+	color: var(--buttons-active-text-color);
+	background-color: var(--buttons-active-color);
+}
+
+/* main */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.text {
+	line-height: 1.5;
+}
+.title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+}
+.work-title,
+.employee-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+}
+.employee {
+	background-color: #f4f4fd;
+}
+.footer {
+	background-color: var(--footer-background-color);
+}
+.footer .logo {
+	color: var(--footer-logo-color);
+}
+.footer .text {
+	color: var(--footer-text-color);
+}
